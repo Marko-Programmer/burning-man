@@ -90,6 +90,7 @@ if (menuLinks.length > 0) {
 
             headerBurger.classList.remove('active');
             headerMenu.classList.remove('active');
+            headerBottom.classList.remove('active');
             body.classList.remove('lock')
             e.preventDefault();
         }
