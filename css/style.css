@@ -288,7 +288,7 @@ h1, h2, h3, h4, h5, h6 {
 .header__logo {
   display: inline-block;
   margin: 0px 70px 0px 0px;
-  z-index: 5;
+  z-index: 3;
 }
 
 .header__list {
@@ -602,15 +602,9 @@ h1, h2, h3, h4, h5, h6 {
   .header__top {
     margin: 0px 0px 100px 0px;
   }
-  .header__menu {
-    padding: 60px 10px 20px 10px;
-  }
 }
 
-@media (max-height: 500px) {
-  .header__menu {
-    padding: 40px 10px 20px 10px;
-  }
+@media (max-height: 530px) {
   .header__item {
     line-height: 50px;
   }
@@ -620,14 +614,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-height: 470px) {
-  .header__top {
-    margin: 0px 0px 40px 0px;
-  }
-}
-
-@media (max-height: 415px) {
   .header__title {
     font-size: 25px;
+  }
+  .header__top {
+    margin: 0px 0px 40px 0px;
   }
   .header__subtitle {
     font-size: 80px;
@@ -635,9 +626,6 @@ h1, h2, h3, h4, h5, h6 {
   }
   .header__top {
     margin: 0px 0px 30px 0px;
-  }
-  .header__menu {
-    padding: 30px 10px 20px 10px;
   }
   .header__item {
     line-height: 45px;
@@ -647,12 +635,18 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-height: 400px) {
+@media (max-height: 450px) {
   .header {
     padding-top: 30px;
   }
   .header__menu {
-    padding: 10px 10px 20px 10px;
+    padding: 50px 10px 20px 10px;
+  }
+}
+
+@media (max-height: 400px) {
+  .header__menu {
+    padding: 10px 10px 0px 10px;
   }
 }
 
@@ -670,9 +664,6 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-height: 330px) {
   .header {
     padding-top: 20px;
-  }
-  .header__menu {
-    padding: 0px 10px 20px 10px;
   }
   .header__item {
     line-height: 40px;
@@ -694,6 +685,9 @@ h1, h2, h3, h4, h5, h6 {
   .header__button {
     height: 50px;
     line-height: 20px;
+  }
+  .header__menu {
+    padding: 0px 10px 0px 10px;
   }
 }
 
