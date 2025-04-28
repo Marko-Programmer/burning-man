@@ -24,4 +24,4 @@ To run the website locally, follow these steps:
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/Marko-Programmer/burning-man-website.git
+git clone https://github.com/Marko-Programmer/burning-man.git
