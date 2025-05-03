@@ -16,6 +16,9 @@ Welcome to the Burning Man website project! This project features a responsive l
 
 Check out the live version of the website: [Burning Man Website](https://marko-programmer.github.io/burning-man/)
 
+## ⚠️ **Це навчальний сайт. Не вводьте справжні паролі чи персональні дані.**
+
+
 
 ## Installation
 
